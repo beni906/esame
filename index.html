@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>
+        Cinema Corso TPPW 2024 con gli studenti iscritti presso Immaginazione e Lavoro
+    </title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Dancing+Script:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+</head>
+
+<body>
+    <header>
+       <div class="header-wrapper fixed-top">
+           <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="Cinema-Transparent3.png"></a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar"
+                    aria-controls="offcanvasNavbar"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div
+                    class="offcanvas offcanvas-end"
+                    tabindex="-1"
+                    id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel"
+                >
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                           Cinema
+                        </h5>
+                        <button
+                            type="button"
+                            class="btn-close text-reset"
+                            data-bs-dismiss="offcanvas"
+                            aria-label="Close"
+                        ></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link active"
+                                    aria-current="page"
+                                    href="#"
+                                    style="color:rgb(221, 197, 197);">Home</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" style="color:rgb(221, 197, 197);">Biglietteria</a>
+                            </li>
+                            <li class="nav-item" >
+                                <a
+                                    class="nav-link active"
+                                    aria-current="page"
+                                    href="http://127.0.0.1:5501/lezione16-cinema/carrello.html"
+                                    style="color:rgb(221, 197, 197)">Carrello <i class="bi bi-cart4"></i></a
+                                >
+                            </li>
+           
+                        </ul>
+                        <form class="d-flex" >
+                            <input
+                                class="form-control me-2"
+                                type="search"
+                                placeholder="Cerca"
+                                aria-label="Search"
+                                style="border-radius: 50px;"
+                            />
+                            <button class="btn btn-danger" style="border-radius: 50px;" type="submit" >
+                               Cerca
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+           </nav>
+       </div>
+       
+
+    </header>
+
+    <section id="hero">
+        <div class="container">
+          <!-- display flex con allineamento al centro verticale e a destra SOLO da LG -->
+          <div
+            class="d-flex align-items-lg-center justify-content-center justify-content-lg-end vh-100"
+          >
+            <div class="hero-text text-center text-lg-end">
+              <h1 style="color: white; font-family: playfair; font-size: 50px;margin-top: -10rem;">"Emozioni senza fine: il cinema la felice ti aspettta" </h1>
+              <div class="hero-button">
+                <a class="btn btn-outline-light" style="border-radius: 50px;font-family: playfair; font-size:25px" href="#eventi"
+                  >scopri nuovi film</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    <main>
+
+        <div class="container mt-3">
+            <h1 class="text-center " style="font-family: playfair;">LA FELICE</h1>
+
+            <h2 style="text-align: center; padding: 1rem;font-family: playfair; font-size: 40px;">Film in Sala</h2>
+            <div class="swiper">
+                <div class="swiper-wrapper" id="elListaSpettacoli">
+                    
+                    <!-- Andranno inserite delle card per ogni singolo spettacolo. Per ogni card ci sarà un pulsante di acquista. Al click verrà salvata l'informazione in un carrello. Posso acquistare più spettacoli contemporaneamente.
+                            Nella pagina carrello dovranno essere presenti i resoconti degli spettacoli, il prezzo dei singoli, il totale e una maschera di inserimento dati (nome, cognome, email, telefono, indirizzo, sistemi di pagamento (2 o 3 ) )-->
+                    <!-- In questa pagina prevedere 2 sezioni rispettivamente con "Film in Sala" e "Film Passati" -->
+                
+                          <!-- Add Pagination -->
+                        
+                       
+                        <img src="https://cdn.pixabay.com/photo/2021/11/04/19/39/jellyfish-6769173_960_720.png" alt="" class="bg">
+                        <img src="https://cdn.pixabay.com/photo/2012/04/13/13/57/scallop-32506_960_720.png" alt="" class="bg2">
+                
+                </div>
+            </div>
+
+            <div class="row mt-5 " id="elListaScaduti">
+                <h2 style="text-align: center; font-family: playfair;font-size: 40px;">Film non più in sala</h2>
+
+            </div>
+        </div>
+
+
+    </main>
+    <footer id="mainFooter">
+        <div class="row" style="color: rgba(255, 255, 255, 0.897);">
+            <div class="col-1"></div>
+            <div class="col">
+                <h3  style="font-family: playfair;">FELICE</h3><br>
+                <a href="https://www.thespacecinema.it/chi-siamo" style="text-decoration: none; color: rgba(255, 255, 255, 0.897) ;" >
+                    <p  style="font-family: playfair;">chi siamo</p>
+                </a>
+                <a href="https://www.thespacecinema.it/iniziative/pnrr" style="text-decoration: none; color: rgba(255, 255, 255, 0.897) ;" >
+                    <p style="font-family: playfair;">PNNR</p>
+                </a>
+                <a href="https://www.thespacecinema.it/lavora-con-noi" style="text-decoration: none; color: rgba(255, 255, 255, 0.897) ;">
+                    <p style="font-family: playfair;">Lavora con noi</p>
+                </a>
+                <a href="https://www.thespacecinema.it/i-nostri-cinema" style="text-decoration: none; color: rgba(255, 255, 255, 0.897) ;">
+                    <p style="font-family: playfair;">I nostri cinema</p>
+                </a>
+            </div>
+            <div class="col">
+                <h3 style="font-family: playfair;">NOTE  LEGALI</h3><br>
+                <a href="https://www.thespacecinema.it/privacy-policy" style="text-decoration: none; color: rgba(255, 255, 255, 0.897) ;">
+                    <P style="font-family: playfair;">Privacy Policy</P>
+                </a>
+                <a href="https://www.thespacecinema.it/cookie-policy "style="text-decoration: none; color: rgba(255, 255, 255, 0.897)">
+                    <p style="font-family: playfair;">Cookie Policy</p>
+                </a>
+                <a href="https://www.thespacecinema.it/condizioni-di-utilizzo" style="text-decoration: none; color: rgba(255, 255, 255, 0.897)" >
+                    <p style="font-family: playfair;">Condizioni di utilizzo</p>
+                </a>
+                <a href="https://www.thespacecinema.it/regolamenti" style="text-decoration: none; color: rgba(255, 255, 255, 0.897)" >
+                    <p style="font-family: playfair;">Regolamenti</p>
+                </a>
+            </div>
+            <div class="col">
+                <h3 style="font-family: playfair;">SOCIALI</h3><br>
+                <a href="https://www.instagram.com/thespacecinema/ " style="text-decoration: none; color: rgba(255, 255, 255, 0.897)">
+                    <ul><i class="bi bi-instagram">Instagram</i></ul>
+                </a>
+                <a href="https://x.com/TheSpaceCinema?mx=2" style="text-decoration: none; color: rgba(255, 255, 255, 0.897)" >
+                    <ul><i class="bi bi-twitter">Twitter</i></ul>
+                </a>
+                <a href="https://www.facebook.com/TheSpaceCinema" style="text-decoration: none; color: rgba(255, 255, 255, 0.897) ;" >
+                    <ul><i class="bi bi-snapchat">Snapchat</i></ul>
+                </a>
+            </div>
+        </div>
+        <!-- place footer here -->
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
